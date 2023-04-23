@@ -1,5 +1,5 @@
 **Aim: Program for matrix multiplication using Openmp.**
-
+OpenMP (Open Multi-Processing) is an application programming interface (API) that supports multi-platform shared-memory multiprocessing programming in C
 #include <stdio.h>
 #include <sys/time.h>
 #include <omp.h>
