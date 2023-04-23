@@ -1,4 +1,6 @@
 **Aim: EXP7 Cube of N number using cuda**
+CUDA® is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs).
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <cuda_runtime.h>
