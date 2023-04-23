@@ -1,5 +1,5 @@
-**Aim: EXP7 Cube of N number using cuda**
-CUDA® is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs).
+//**Aim: EXP7 Cube of N number using cuda**
+//CUDA® is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs).
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -46,5 +46,5 @@ cudaFree(d_out);
 return 0;
 }
 
-Output:
-1.000000 8.000000 27.000000 64.000000
+//Output:
+//1.000000 8.000000 27.000000 64.000000
