@@ -1,6 +1,6 @@
-**Aim: Hello World program using MPI**
+//**Aim: Hello World program using MPI**
 
-The message passing interface (MPI) is a standardized means of exchanging messages between multiple computers running a parallel program across distributed memory.
+//The message passing interface (MPI) is a standardized means of exchanging messages between multiple computers running a parallel program across distributed memory.
 
 #include <mpi.h>
 #include <stdio.h>
@@ -26,20 +26,14 @@ MPI_Finalize();
 }
 
 
-//How to run 
 
-1. First write code and save hello.c
-2. Sudo apt install mpich
-3. mpicc hello.c -o hello
-4. mpirun -np 5 ./hello
+//**Output:**
 
-**Output:**
-
-ubuntu@ubuntu-HP-Elite-Tower-600-G9-Desktop-PC:~$ mpicc mpi_hello_world.c -o hello-world
-ubuntu@ubuntu-HP-Elite-Tower-600-G9-Desktop-PC:~$ mpirun -np 5 ./hello-world
-Hello world from processor ubuntu-HP-Elite-Tower-600-G9-Desktop-PC, rank 0 out of 5 processors
-Hello world from processor ubuntu-HP-Elite-Tower-600-G9-Desktop-PC, rank 1 out of 5 processors
-Hello world from processor ubuntu-HP-Elite-Tower-600-G9-Desktop-PC, rank 3 out of 5 processors
-Hello world from processor ubuntu-HP-Elite-Tower-600-G9-Desktop-PC, rank 2 out of 5 processors
-Hello world from processor ubuntu-HP-Elite-Tower-600-G9-Desktop-PC, rank 4 out of 5 processors
-ubuntu@ubuntu-HP-Elite-Tower-600-G9-Desktop-PC:~$
+//ubuntu@ubuntu-HP-Elite-Tower-600-G9-Desktop-PC:~$ mpicc mpi_hello_world.c -o hello-world
+//ubuntu@ubuntu-HP-Elite-Tower-600-G9-Desktop-PC:~$ mpirun -np 5 ./hello-world
+//Hello world from processor ubuntu-HP-Elite-Tower-600-G9-Desktop-PC, rank 0 out of 5 processors
+//Hello world from processor ubuntu-HP-Elite-Tower-600-G9-Desktop-PC, rank 1 out of 5 processors
+//Hello world from processor ubuntu-HP-Elite-Tower-600-G9-Desktop-PC, rank 3 out of 5 processors
+//Hello world from processor ubuntu-HP-Elite-Tower-600-G9-Desktop-PC, rank 2 out of 5 processors
+//Hello world from processor ubuntu-HP-Elite-Tower-600-G9-Desktop-PC, rank 4 out of 5 processors
+//ubuntu@ubuntu-HP-Elite-Tower-600-G9-Desktop-PC:~$
