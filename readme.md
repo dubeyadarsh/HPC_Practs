@@ -10,6 +10,7 @@
 1. First write code and save area.c
 
 Terminal (sudo apt install gcc)
+
 2. gcc area.c -o area.out
 3. export OMP_NUM_THREADS=4
 4. gcc -fopenmp area.c -o area.out
