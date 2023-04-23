@@ -1,4 +1,4 @@
-**Aim :: Area of circle using mpi**
+//**Aim :: Area of circle using mpi**
 #include <stdio.h>
 #include <mpi.h>
 
@@ -28,8 +28,3 @@ int main(int argc, char** argv) {
     return 0;
 }
 
-How to run?
-1. First write code and save hello.c
-2. Sudo apt install mpich
-3. mpicc hello.c -o hello
-4. mpirun -np 5 ./hello
