@@ -1,5 +1,5 @@
-**Aim : Write a program in C to multiply two matrices of size 10000 x 10000 each and find its execution-
-time using "time" command.
+//**Aim : Write a program in C to multiply two matrices of size 10000 x 10000 each and find its execution-
+//time using "time" command.
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -103,7 +103,7 @@ free(result);
 return 0;
 }
 
-Output
+//Output
 
-function took 8.466246 seconds to execute
-run second one for 10000
+//function took 8.466246 seconds to execute
+//run second one for 10000
