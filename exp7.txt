@@ -25,6 +25,14 @@ processor_name, world_rank, world_size);
 MPI_Finalize();
 }
 
+
+//How to run 
+
+1. First write code and save hello.c
+2. Sudo apt install mpich
+3. mpicc hello.c -o hello
+4. mpirun -np 5 ./hello
+
 **Output:**
 
 ubuntu@ubuntu-HP-Elite-Tower-600-G9-Desktop-PC:~$ mpicc mpi_hello_world.c -o hello-world
