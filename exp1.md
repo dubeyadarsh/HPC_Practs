@@ -10,7 +10,7 @@ Usually, this command shows the summary information of the system and the list o
 The ps command is used to list the currently running processes and their PIDs along with some other information
 ![image](https://user-images.githubusercontent.com/75479397/233824384-86b338b5-6bd6-4fe9-aa52-81df48821e93.png)
 
-3)Kill 
+3) Kill 
  The kill command sends a signal (by default, the SIGTERM signal) to a running process. This default action normally stops processes.
  ![image](https://user-images.githubusercontent.com/75479397/233824420-b870609a-9b90-4cc0-81ad-7cd709d2f437.png)
 
