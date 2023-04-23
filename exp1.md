@@ -1,4 +1,4 @@
-**Aim : To demonstrate some linux command like top,ps,kill, cat /proc/cpuinfo e.vmstat.**
+**Aim : To demonstrate some linux command like top,ps,kill, cat /proc/cpuinfo ,vmstat.**
 
 1) Top command: The top command is used to show the active Linux processes. It provides a dynamic real-time view of the running system. 
 Usually, this command shows the summary information of the system and the list of processes or threads which are currently managed by the Linux kernel.
