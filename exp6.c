@@ -1,5 +1,7 @@
-**Aim: Program for matrix multiplication using Openmp.**
-OpenMP (Open Multi-Processing) is an application programming interface (API) that supports multi-platform shared-memory multiprocessing programming in C
+//**Aim: Program for matrix multiplication using Openmp.**
+//OpenMP (Open Multi-Processing) is an application programming interface (API) that supports multi-platform shared-memory multiprocessing programming in C.
+
+
 #include <stdio.h>
 #include <sys/time.h>
 #include <omp.h>
@@ -145,7 +147,7 @@ free(Checkoutput);
 
 }
 
-Output :
+/*Output :
 Read The Matrix Size No of rows And Columns Of Matrix A and B  
 4
 4
@@ -171,12 +173,5 @@ The Matrix Computation Result Is
 20.000000 30.000000 40.000000 50.000000
 26.000000 40.000000 54.000000 68.000000
 32.000000 50.000000 68.000000 86.000000
+*/
 
-How to run ??
-1. First write code and save area.c
-
-Terminal (sudo apt install gcc)
-2. gcc area.c -o area.out
-3. export OMP_NUM_THREADS=4
-4. gcc -fopenmp area.c -o area.out
-5.   ./area.out
