@@ -5,7 +5,7 @@
 3. mpicc hello.c -o hello
 4. mpirun -np 5 ./hello
 
-**How to run omp code?? **
+**How to run omp code??**
 
 1. First write code and save area.c
 
