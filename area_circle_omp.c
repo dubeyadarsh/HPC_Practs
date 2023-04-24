@@ -1,6 +1,7 @@
 //**Aim :: Area of circle using omp**
 #include <stdio.h>
 #include <omp.h>
+#include <stdlib.h>
 int main(int argc, char *argv[])
 {
     double radius = 5.0;
@@ -9,7 +10,7 @@ int main(int argc, char *argv[])
     int num_threads = 4;
 #pragma omp parallel num_threads(num_threads)
     {
-        int tid = omp_get_thread_num();
+       // int tid = omp_get_thread_num();
         double local_area = 0.0;
  #pragma omp for
         for (int i = 0; i < 10000000; i++) {
@@ -24,7 +25,7 @@ int main(int argc, char *argv[])
             area += local_area;
         }
     }
-  area = 4.0 * radius * radius * (area / 10000000.0) / num_threads;
+  area = 4.0 *pi* radius * radius * (area / 10000000.0) / num_threads;
     printf(“Area of circle with radius %f is %f\n”, radius, area);
 return 0;
 }
